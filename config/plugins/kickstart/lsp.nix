@@ -123,6 +123,18 @@
           action = "setloclist";
           desc = "Open diagnostic [Q]uickfix list";
         };
+        "[d" = {
+          action = "goto_prev";
+          desc = "Go to previous diagnostic message";
+        };
+        "]d" = {
+          action = "goto_next";
+          desc = "Go to next diagnostic message";
+        };
+        "<leader>e" = {
+          action = "open_float";
+          desc = "Open floating diagnostic message";
+        };
       };
 
       extra = [
