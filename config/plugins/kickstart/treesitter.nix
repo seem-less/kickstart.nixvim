@@ -64,6 +64,8 @@
       # astro
       # nginx
       # svelte
+
+      python
     ];
 
     settings = {
