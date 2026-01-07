@@ -28,6 +28,9 @@
     };
   };
 
+  # use direnv defined environment
+  plugins.direnv.enable = true;
+
   # Brief aside: **What is LSP?**
   #
   # LSP is an initialism you've probably heard, but might not understand what it is.
@@ -75,6 +78,12 @@
       # };
       pyright = {
         enable = true;
+        settings = {
+          python.analysis = {
+            autoSearchPaths = true;
+            useLibraryCodeForTypes = true;
+          };
+        };
       };
       # rust_analyzer = {
       #   enable = true;
