@@ -76,14 +76,17 @@
       # gopls = {
       #   enable = true;
       # };
-      pyright = {
+      # pyright = {
+      #   enable = true;
+      #   settings = {
+      #     python.analysis = {
+      #       autoSearchPaths = true;
+      #       useLibraryCodeForTypes = true;
+      #     };
+      #   };
+      # };
+      ty = {
         enable = true;
-        settings = {
-          python.analysis = {
-            autoSearchPaths = true;
-            useLibraryCodeForTypes = true;
-          };
-        };
       };
       # rust_analyzer = {
       #   enable = true;
