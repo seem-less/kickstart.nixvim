@@ -14,6 +14,7 @@
         untracked.text = "┆";
       };
     };
+    current_line_blame = true;
   };
 
   keymaps = [
