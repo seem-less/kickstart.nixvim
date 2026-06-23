@@ -87,6 +87,7 @@
       # };
       ty = {
         enable = true;
+        package = null;
       };
       rust_analyzer = {
         enable = true;
@@ -108,11 +109,13 @@
       # Nix lsp
       nil_ls = {
         enable = true;
+        package = null;
       };
 
       # Lua lsp
       lua_ls = {
         enable = true;
+        package = null;
 
         # cmd = {
         # };
