@@ -34,6 +34,7 @@ in
     # NOTE: Configure your own plugins `see https://nix-community.github.io/nixvim/`
     # Add your plugins to ./config/plugins/custom and import them below
     # ./config/plugins/custom/rustaceanvim.nix
+    ./config/plugins/custom/llm.nix
   ];
 
   /*
@@ -345,7 +346,7 @@ in
         source = "if_many";
       };
       underline = {
-        severity.__raw = ''vim.diagnostic.severity.ERROR'';
+        severity.__raw = "vim.diagnostic.severity.ERROR";
       };
       signs.__raw = ''
         vim.g.have_nerd_font and {
