@@ -34,7 +34,7 @@ in
     # NOTE: Configure your own plugins `see https://nix-community.github.io/nixvim/`
     # Add your plugins to ./config/plugins/custom and import them below
     # ./config/plugins/custom/rustaceanvim.nix
-    ./config/plugins/custom/llm.nix
+    # ./config/plugins/custom/llm.nix
   ];
 
   /*
