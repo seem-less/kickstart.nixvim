@@ -94,6 +94,11 @@
         installCargo = false;
         package = null;
         packageFallback = true;
+        settings = {
+          # for bacon_ls to work
+          diagnostics.enable = false;
+          checkOnSave.enable = false;
+        };
       };
       bacon_ls = {
         enable = true;
